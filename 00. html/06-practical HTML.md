@@ -56,10 +56,10 @@
 - 이 콘텐츠 의미가 무엇인가?
   : 페이지의 머리말인가? 메뉴인가?
 - 그 의미에 맞는 HTML 태그 선택
-  : header, nav, main, section, article, aside, footer
+  : `header`, `nav`, `main`, `section`, `article`, `aside`, `footer`
 - 필요한 속성 추가
-  : class, id, href, src, alt, name, value
+  : `class`, `id`, `href`, `src`, `alt`, `name`, `value`
 - 사용자에게 제대로 사용할 수 있는 구조인지 확인
-  : label, alt, button, a, heading
+  : `label`, `alt`, `button`, `a`, `heading`
 - css 와 js 연결
   : 디자인 + 동작
