@@ -61,9 +61,7 @@ list item, 목록의 각각의 항목
 
 ### 4. `<ul>` 순서가 없는 목록
 
-unordered list, 순서가 중요하지 않은 목록. 반드시 `li`와 함께 사용
-
-#### 기본 형태
+unordered list, 순서가 중요하지 않은 목록.
 
 ```html
 <ul>
@@ -75,7 +73,7 @@ unordered list, 순서가 중요하지 않은 목록. 반드시 `li`와 함께 �
 
 ### 5. `<ol>` 순서가 있는 목록
 
-ordered list, 순서가 중요한 목록. 반드시 `li`와 함께 사용
+ordered list, 순서가 중요한 목록.
 
 ```html
 <ol>
