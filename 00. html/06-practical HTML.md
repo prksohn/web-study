@@ -44,9 +44,8 @@
 </form>
 ```
 
-### 4. SEO 기본 - 검색 엔진 최적화
+### 4. SEO 기본 - 검색 엔진 최적화 (Search Engine Optimization)
 
-Search Engine Optimization <br>
 검색 엔진이 웹 페이지의 내용을 잘 이해하고 검색 결과에 적절하게 보여줄 수 있도록 만드는 것
 
 - `title` : 페이지의 제목을 명확하게 작성
