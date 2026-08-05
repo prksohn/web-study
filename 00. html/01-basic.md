@@ -10,12 +10,12 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <title>나의 첫 웹페이지</title>
+    <title>웹 페이지 제목</title>
   </head>
 
   <body>
-    <h1>안녕하세요</h1>
-    <p>HTML을 공부하고 있습니다.</p>
+    <h1>제목</h1>
+    <p>내용</p>
   </body>
 </html>
 ```
