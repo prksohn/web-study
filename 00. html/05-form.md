@@ -27,7 +27,8 @@
 입력 요소가 무엇을 입력하는 곳인지 설명하는 텍스트
 
 ```html
-<label for="username">아이디</label> <input type="text" id="username" />
+<label for="username">아이디</label> <br />
+<input type="text" id="username" />
 ```
 
 - `label` 과 `input` 연결이 중요
