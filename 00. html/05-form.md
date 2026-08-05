@@ -130,7 +130,7 @@ type에 따라 다른 역할 부여
 - `input` : 사용자가 입력
 - `button` : form 제출
 
-#### 버튼의 타입
+### 버튼의 타입
 
 `button` 의 `type` 지정 가능 <br>
 `type="button"` 과 `type="submit"` 구분 중요
