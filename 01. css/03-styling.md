@@ -1,4 +1,4 @@
-## Styling
+## 스타일링 Styling
 
 ### 1. 기본 Reset
 
