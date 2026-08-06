@@ -1,4 +1,4 @@
-## HTML Fundamentals
+## HTML Basic
 
 ### HTML이란?
 
