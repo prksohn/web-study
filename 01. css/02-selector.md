@@ -24,9 +24,11 @@ p {
 
 - 모든 `p` 태그에 적용
 
-### 2. Class Selector` - Class 이름으로 선택
+### 2. `Class Selector` - Class 이름으로 선택
 
-`.class명`, 여러 요소에서 사용 가능, 실무 사용 빈도 높음
+- `.class명`
+- 여러 요소에서 사용 가능
+- 사용 빈도 가장 높음
 
 ```html
 <p class="text">내용</p>
@@ -56,11 +58,13 @@ p {
 }
 ```
 
-- `class="class명1 class명2"` 처럼 여러 개의 `class` 도 가능
+- `class="class명1 class명2"` 와 같이 여러 개의 `class` 도 가능
 
-### 3. ID Selector` - 고유한 식별자
+### 3. `ID Selector` - 고유한 식별자
 
-`#id명`, 한 페이지에 하나만 사용 가능, 특정 요소 식별
+- `#id명`
+- 한 페이지에 하나만 사용 가능
+- 특정 요소 식별
 
 ```html
 <p id="id명">내용</p>
@@ -74,6 +78,8 @@ p {
 
 ### 4. `Group Selector` - 여러 요소 한번에 선택
 
+요소 사이에 `,` 로 구분
+
 ```css
 h1,
 p,
@@ -81,8 +87,6 @@ button {
   color: green;
 }
 ```
-
-- 요소 사이에 `,` 로 구분
 
 ### 5. `Descendant Selector` - 후손 선택자
 
