@@ -1,13 +1,13 @@
-## CSS Fundamental
+## CSS Basic
 
 ### CSS란?
 
-Cascading Style Sheets 약자로, HTML의 디자인을 담당하는 언어
+Cascading Style Sheets, HTML의 디자인을 담당하는 언어
 
 ### 외부 CSS
 
 HTML과 CSS를 별도의 파일로 분리하는 방식 <br>
-`style.css` 파일 생성
+별도의 `style.css` 파일 생성
 
 ### HTML과 CSS 연결
 
