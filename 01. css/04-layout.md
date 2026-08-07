@@ -114,17 +114,17 @@ HTML 요소를 화면에 어떻게 배치할지 결정하는 속성
 
 ```css
 선택자 {
-  justify-content: flex-start;  // 가로 방향 좌측 정렬 (기본값)
-  justify-content: center;  // 가로 방향 중앙 정렬
-  justify-content: flex-end;  // 가로 방향 우측 정렬
+  justify-content: flex-start;  // 주축 방향 좌측 정렬 (기본값)
+  justify-content: center;  // 주축 방향 중앙 정렬
+  justify-content: flex-end;  // 주축 방향 우측 정렬
   justify-content: space-between;  // 양끝 정렬 기준으로 사이 여백
   justify-content: space-around;  // 양끝 정렬 기준으로 사이 여백, 양쪽 여백 포함
   justify-content: space-evenly;  // 모든 간격 동일
 }
 ```
 
-- `display: flex;` 일 때 : 가로 정렬
-- `display: column;` 일 때 : 세로 정렬
+- `display: flex;` 일 때 : 가로 방향
+- `display: column;` 일 때 : 세로 방향
 
 ### 7. `align-items` - 교차축 방향 정렬
 
@@ -132,19 +132,16 @@ HTML 요소를 화면에 어떻게 배치할지 결정하는 속성
 
 ```css
 선택자 {
-  align-items: center;  // 세로 방향 중앙 정렬 (기본값)
-  align-items: flex-start;  // 세로 방향 상단 정렬
-  align-items: flex-end;  // 세로 방향 하단 정렬
+  align-items: center;  // 교차축 방향 중앙 정렬 (기본값)
+  align-items: flex-start;  // 교차축 방향 상단 정렬
+  align-items: flex-end;  // 교차축 방향 하단 정렬
 }
 ```
 
-- `display: flex;` 일 때 : 세로 정렬
-- `display: column;` 일 때 : 가로 정렬
+- `display: flex;` 일 때 : 세로 방향
+- `display: column;` 일 때 : 가로 방향
 
 ### 8. `gap` - 자식 요소 사이 간격
-
-자식 요소 사이 간격을 줄 때, `margin` 보다 `gap` 사용 <br>
-더 간단하고 유지보수 용이
 
 ```css
 선택자 {
@@ -152,6 +149,9 @@ HTML 요소를 화면에 어떻게 배치할지 결정하는 속성
   gap: 20px;
 }
 ```
+
+- 자식 요소 사이 간격을 줄 때, `margin` 보다 `gap` 사용
+- 더 간단하고 유지보수 용이
 
 ### 9. `flex-direction` - 배치 방향
 
@@ -181,4 +181,4 @@ HTML 요소를 화면에 어떻게 배치할지 결정하는 속성
 }
 ```
 
-- 메뉴를 세로로 정렬하고 싶을 때 사용 가능
+- 메뉴바를 세로로 정렬할 때 사용 가능
