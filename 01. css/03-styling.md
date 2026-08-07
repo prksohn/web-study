@@ -57,6 +57,9 @@
 }
 ```
 
+- `font-family: Arial, sans-serif` : 첫번째 폰트를 우선적으로 사용하되, 사용할 수 없다면 두번째 폰트를 사용
+- Google fonts 사용 가능
+
 ### 5. 폰트 사이즈 변경 - `font-size`
 
 ```css
@@ -123,9 +126,11 @@
 
 ```css
 선택자 {
-  border: 1px solid black;  // 두께 스타일 색상
+  border: 1px solid black;
 }
 ```
+
+- `border: 두께 스타일 색상`
 
 ### 12. 요소 크기 계산 방식 - `Box-sizing`
 
