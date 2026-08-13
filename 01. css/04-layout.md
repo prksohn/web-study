@@ -7,13 +7,9 @@ HTML 요소를 화면에 어떻게 배치할지 결정하는 속성
 ```css
 선택자 {
   display: block;
-
   display: inline;
-
   display: inline-block;
-
   display: flex;
-
   display: none;
 }
 ```
