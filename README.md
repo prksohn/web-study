@@ -7,7 +7,7 @@
 - html
 - css
 - javascript
-- React
+- react
 
 #### Backend
 
