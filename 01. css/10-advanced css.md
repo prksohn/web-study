@@ -91,7 +91,7 @@
 ### 7. `::marker ` - `<li>` 목록 기호(Bullet)/번호 선택
 
 ```css
-li::marker {
+.선택자 li::marker {
   /* 적용할 스타일 */
 }
 ```
