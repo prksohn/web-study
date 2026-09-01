@@ -1,15 +1,15 @@
 ## web-study
 
-2026.08.05 - 2026.12.31
+[2026.08.05 - 2026.12.31]
 
-#### FE
+#### Frontend
 
 - html
 - css
 - javascript
 - React
 
-#### FE
+#### Backend
 
 - java
 - spring boot
