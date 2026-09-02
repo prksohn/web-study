@@ -133,8 +133,6 @@ Animation 반복 횟수
 }
 ```
 
-e
-
 - `infinite` : 무한 반복 - 로딩 아이콘에서 사용
 
 ### 6. `animation-direction` - 반복 방향
