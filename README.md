@@ -8,9 +8,13 @@
 - css
 - javascript
 - react
+- typescript
 
 #### Backend
 
 - java
 - spring boot
 - mySQL
+- REST API
+- JPA
+- Docker
