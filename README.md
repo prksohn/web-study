@@ -17,4 +17,4 @@
 - mySQL
 - REST API
 - JPA
-- Docker
+- docker
