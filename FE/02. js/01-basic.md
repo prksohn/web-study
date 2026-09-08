@@ -254,3 +254,110 @@ console.log(Array.isArray(fruits)); // 출력: true
 - (1) `null` 은 논리적으로 객체가 아닌데도 `typeof null` 의 결과는 `object`
 - (2) 배열도 typeof는 `object`
 - (3), (4) 배열 타입인지 확인 방법 - 결과값은 항상 boolean
+
+### 4. 비교 연산자 - `===`, `!==`, `>`, `<`, `>=` `<=`
+
+두 값을 비교해서 `true` 또는 `false` 를 만드는 연산자
+
+```javascript
+연산자      의미           예시         결과
+===       같다        10 === 10      true
+!==       같지 않다    10 !== 20      true
+>         크다        10 > 5         true
+<         작다        10 < 5         false
+>=        크거나 작다   10 < 5         true
+<=        작거나 같다   10 <= 5        false
+```
+
+#### `===` - 완전히 같은지 확인 (값과 타입까지 엄격한 비교)
+
+실무에서 가장 중요, 사용 권장
+
+```javascript
+const age = 20;
+
+console.log(age === 20); // true
+console.log(age === 30); // false
+console.log(20 === '20'); // false
+```
+
+- 데이터 타입도 일치 해야 완전히 같다.
+
+#### `!==` - 다른지 확인
+
+```javascript
+const age = 20;
+
+console.log(age !== 20); // false
+console.log(age !== 30); // true
+```
+
+#### `==` - 같은지 확인 (형변환은 비교하지 않음)
+
+```javascript
+20 == '20'; // true
+
+20 === '20'; // false
+```
+
+### 5. 논리 연산자 - `&&`, `||`, `!`
+
+#### `&&` - AND (둘 다 true여야 true)
+
+```javascript
+// (1) 참
+const age = 20;
+const hasTicket = true;
+
+console.log(age >= 18 && hasTicket); // true
+
+// (2) 거짓
+const age = 15;
+const hasTicket = true;
+
+console.log(age >= 18 && hasTicket); // false
+```
+
+#### `||` - OR (둘 중 하나만 true여도 true)
+
+```javascript
+const isAdmin = false;
+const isManager = true;
+
+console.log(isAdmin || isManager); // true
+
+if (isAdmin || isManager) {
+  console.log('관리자 페이지 접근 가능');
+}
+```
+
+#### `!` - NOT (true <-> false)
+
+```javascript
+const isLogin = true;
+
+console.log(!isLogin); // false
+
+const isLogin = false;
+
+console.log(!isLogin); // true
+
+if (!isLogin) {
+  console.log('로그인이 필요합니다.');
+}
+```
+
+### 6. 조건 연산자 (= 삼항 연산자 ternary operator)
+
+```javascript
+조건 ? 참일 때 : 거짓일 때
+
+const age = 20;
+
+const result = age >= 18 ? "성인" : "미성년자";  // 삼항 연산자
+
+console.log(result); // 성인
+```
+
+- 간단한 조건: `삼항 연산자` 사용
+- 복잡한 조건: `if - else` 사용
