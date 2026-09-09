@@ -61,6 +61,7 @@ console.log(result);
 
 - `console.log` : 화면/콘솔에 결과를 보여주는 것, 단 함수의 결과를 다른 변수에 받을 수 없음
 - `return` : 함수의 결과를 밖으로 전달하는 것, return을 만나면 뒤에 다른 선언이 있더라도 함수 종료
+- `return` 생략 : 화면에 출력하는 작업만 하고 밖으로 전달할 값이 필요없을 때 생략 가능
 
 ### 6. 함수 표현식 Function Expression
 
