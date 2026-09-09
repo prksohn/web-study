@@ -1,4 +1,4 @@
-## 조건문 - Conditional Statements
+## 조건문 Conditional Statements
 
 ### 1. if - 만약 - 라면
 
